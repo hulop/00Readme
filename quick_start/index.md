@@ -31,7 +31,7 @@ This document describes how to build **map** for indoor navigation-able field wi
 0. Long measure tape & stcky tape
 ## Overview of Building MapNavCog App is utilizing Bluetooth radio wave signals to estimate user's location.
 You can easily create navigation map with the following steps.
-## Steps1.	Choose target area and navigation routes in your site ([Sec. 2](map.md#add_area))2.	Distribute beacons around the routes ([Sec. 3](beacon.md#beacon_placement))3.	Prepare **fingerprinting** [^fingerprinting] data for localization ([Sec. 3](beacon.md#fingerprinting))4.	Build map data for the app ([Sec. 2](map.md#export_map))5.	Test the app with your map ([Sec. 4](test.md))6.	Submit the map data for public use ([Sec. 4](test.md#submit_map))7.	Let your blind users try blind navigation in your site ([Sec. 5](navcog.md))# Index
+## Steps1.	Choose target area and navigation routes in your site ([Sec. 2](map.md#add_area))2.	Distribute beacons around the routes ([Sec. 3](beacon.md#beacon_placement))3.	Prepare **fingerprinting** ([*1](#footnote1)) data for localization ([Sec. 3](beacon.md#fingerprinting))4.	Build map data for the app ([Sec. 2](map.md#export_map))5.	Test the app with your map ([Sec. 4](test.md))6.	Submit the map data for public use ([Sec. 4](test.md#submit_map))7.	Let your blind users try blind navigation in your site ([Sec. 5](navcog.md))# Index
 
 1. Index (this document)
 2. [Edit Map & Routes](map.md)
@@ -39,4 +39,4 @@ You can easily create navigation map with the following steps.
 4. [Test Your Map](test.md)
 5. [NavCog User Guide](navcog.md)
 6. [Appendix](appendix.md)
-[^fingerprinting]: Observe radio signal strength in the real environment.
+<a name="footnote1">*1</a>: Observe radio signal strength in the real environment.
