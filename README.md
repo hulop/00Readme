@@ -29,6 +29,8 @@ Please check this repo first for this organisation project.
 
 ### [Quick Start Guide](quick_start/index.md)
 
+- [クイック・スタート・ガイド（日本語）](quick_start_ja/index.md)
+
 ### [About HULOP](http://hulop.mybluemix.net)
 
 ## How Can I Contribute?
