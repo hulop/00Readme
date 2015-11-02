@@ -33,7 +33,9 @@ Here is an example of map in CMU campus.
 ![Example of map](images/cmu_map.png)
 
 **CAUTION**: If you use Google Chroome, or Internet Explorer, please accept following message to use online mapeditor.
+
 ![Warning of Google Chrome](images/mapeditor_warning_chrome.png)
+
 ![Warning of Internet Explorer](images/mapeditor_warning_ie.png)
 
 ## <a name="add_area"></a>Add Area
