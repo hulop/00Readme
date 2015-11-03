@@ -32,16 +32,6 @@ Here is an example of map in CMU campus.
 
 ![Example of map](images/cmu_map.png)
 
-**CAUTION**: If you use Google Chroome, or Internet Explorer, please accept following message to use online mapeditor.
-
-If you use Google Chrome, please click the security icon in URL bar and accept to load script.
-
-![Warning of Google Chrome](images/mapeditor_warning_chrome.png)
-
-If you use Internet Explorer, please accept to show all content.
-
-![Warning of Internet Explorer](images/mapeditor_warning_ie.png)
-
 ## <a name="add_area"></a>Add Area
 1. Select `Map` Tab.
 2. Add **Layer**
