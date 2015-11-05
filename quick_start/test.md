@@ -27,6 +27,7 @@ SOFTWARE.
 ## Prepare private map list file
 
 This is a sample list file for your private map. The file is in **JSON** format.
+Please save this file as "**PrivateMapList.json**" in your application folder.
 You can add another map as an object of **maps** list.
 
 You need to set the name of your map file to the same with the **name** property. (ie. "**Sample Map.json**")
