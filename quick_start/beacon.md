@@ -117,7 +117,7 @@ In the Step 1, there are several things to do for each edge in your route:
 
    ```
    cd Desktop
-   curl -o data-merge.sh https://navcog.mybluemix.net/tools/data-merge.sh
+   curl -O https://navcog.mybluemix.net/tools/data-merge.sh
    sh data-merge.sh train
    ```
 
@@ -134,8 +134,9 @@ In the Step 1, there are several things to do for each edge in your route:
 
    ```
    cd Desktop
-   curl -o TestAccuracy https://navcog.mybluemix.net/tools/TestAccuracy
-   TestAccuracy training-data test-data > result.json
+   curl -O https://navcog.mybluemix.net/tools/TestAccuracy
+   chmod +x TestAccuracy
+   TestAccuracy train-data test-data > result.json
    ```
 4. You can see results in result.json file
 
