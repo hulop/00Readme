@@ -94,7 +94,7 @@ It should not be located exact location of your building in the map. You can rou
     If you want to announce longer description about around the node. For example a node is located at complex intersection. You may want to provide tricky hint to find their way. NavCog app notify users of existence of tricky information when the user going to be reached to the node through the edge by alert sound. User can listen the information by clicking a button on the screen or to tap designated Bluetooth button device. (Appendix xx
 
 * **Transit to Layer #**
-    Select a destination node on the selected layer. You can specify transition for each destination layer. (See [Appendix](appendix.md#transition)
+    Select a destination node on the selected layer. You can specify transition for each destination layer. (See [Appendix](appendix.md#transition))
 * <a name="acc_info4"></a>**Enable transit to Node # with Info**
     App read this information when the system tries to navigate the user to this transition
 
@@ -135,7 +135,7 @@ It should not be located exact location of your building in the map. You can rou
 
 * **Min KnnDist**, **Max KnnDist**
 
-    [See Appendix](Appedix.md#knnDist)
+    [See Appendix](appedix.md#knnDist)
 
 * **Data File**
 
