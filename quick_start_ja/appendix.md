@@ -22,40 +22,41 @@ SOFTWARE.
 -->
 
 
-# Appendix
+# 補遺
 
 
-## <a name="transition"></a>Transition Node
+## <a name="transition"></a>ノードの遷移
 
-Transition will be used at staircases, elevators, and double doors at entrance where the blind users can easily follow the building structure without localization support.
-You should describe about transition so that the user can follow some object to get the next node.
+「遷移」とは、ナビゲーション用地図上のノードからノードへの遷移を意味します。
+「遷移」は、階段、エレベーター、入り口の二重扉など、視覚障害ユーザが構造物を容易に理解でき、案内がなくても問題なく移動できるような場所に利用します。（特にビーコンの信号が届きにくい構造の場所での利用を推奨します）
 
-You need to set `maxDist`, `minDist` values for edge information and `target knn` dist and `pos`.
+ユーザが構造物に沿って向かうべき先の情報を遷移元のノードに記述しておく必要があります。（エレベーターで何階を選択すべきなのか、いくつ扉を開ければよいのか、など）
 
-
-### <a name="knnDist"></a>knnDist
-
-If you use transition node you need to input maximum and minimum knn distance to the edge just after the transition.
-
-You can get minDist and maxDist values in accuracy evaluation result file.
-[Accuracy Evaluation](beacon.md#acc_eval)
-Please input the values of the edge on map editor.
+また、エッジ情報に`最大knnDist`、`最小knnDist`の値を、 ノード情報に`対象knn距離`と `位置`の値を、それぞれ設定しておく必要があります。
 
 
-## Beacon Type
+### <a name="knnDist"></a>knn距離
 
-There are some types of beacons; Battery, USB powered, water proof, embedded in LED light, and so on.
+遷移ノードを利用する場合は、最大knn距離と最小knn距離を遷移直後のエッジに登録する必要があります。
 
-Type | Pros | Cons
+最大knn距離と最小knn距離に設定すべき値は、[精度評価](beacon.md#acc_eval)の結果ファイルに出力されます。
+オンライン地図エディタで、それらの値をエッジに入力してください。
+
+
+## ビーコンのタイプ
+
+ビーコンにはいくつかのタイプがあります。例えば、バッテリー型、USB電源型、防水型、LED照明埋め込み型、など。
+
+タイプ | 利点 | 欠点
 ---|---|---
-Battery|most popular type, inexpensive|need to replace battery
-USB powered|maintenance free|need power tap, expensive
-Water proof|can be deployed outside|usually power is battery, expensive
-LED light|maintenance free|need socket, expensive
+バッテリー|最も普及しているタイプ、値段も高くない|バッテリーの交換が必要
+USB電源|メンテナンスが不要|電源タップが必要、高価
+防水|屋外に設置可能|通常バッテリー型、高価
+LED照明埋め込み|メンテナンスが不要|ソケットが必要、高価
 
-##BLE Beacon Protocol
+##BLEビーコンのプロトコル
 
-As of October 2015, there are three BLE beacon protocol. Currently NavCog supports iBeacon.
+2015年10月時点でBLEビーコンのプロトコルは以下の三種類があります。現時点で、NavCogはiBeaconのみをサポートしています。
 
 * [iBeacon (Apple)](https://developer.apple.com/ibeacon/)
 * [EddyStone (Google)](https://developers.google.com/beacons/?hl=en)

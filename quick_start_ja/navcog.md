@@ -24,41 +24,42 @@ SOFTWARE.
 # NavCogユーザー・ガイド
 
 ## NavCogの使い方
-1. Tap “Choose Map” to show available navigation maps
-2. Select the map where you are and tap “Update” -> wait for loading (a few seconds)
-3. Set the current place to “From” and the destination to “To”
-4. Head to XXX and tap “Initialize Orientation”
-5. Tap “Start Navigation” to start navigation
+1. 「地図選択」をタップして、利用可能なナビゲーション用地図のリストの選択画面へを表示
+2. 「更新」をタップして、リストを更新
+3. 今居る場所の地図を選択（→地図にロードに数秒かかる）
+4. 「出発地」に今居る場所を、「目的地」に目的地を設定
+5. 真北の方角を向いて、「方角の調整」ボタンをタップ
+6. 「ナビ開始」ボタンをタップして、ナビゲーションを開始
 
 
-## Select Map View
-Please select a map from the list.
-There are maps in the public map list and maps in a private map.
+## 地図選択画面
+リストからナビゲーションしてほしい地図を選択します。
+地図のリストには公開地図（オンラインで公開されている地図）と、プライベート地図（iTunes経由で独自に追加した地図）の二種類の地図が区別なくリストされます。
 
-### Update button
-Download the latest public map list from the NavCog server and update the list.
+### 更新ボタン
+最新の公開地図のリストをサーバからダウンロードして更新します。
 
 
-## Route Setting View
-![Screen Short](images/main_view.png)
+## ルート設定画面（メイン画面）
+![ルート設定画面](images/main_view.png)
 
-### Initialize Orientation button
-You need to initialize orientation for the first use. Please ask your admin how to set the orientation.
+### 方角の調整ボタン
+真北の方角を向いてボタンを押すことで、アプリに正しい方角を設定します。方角の調整は、毎回ナビゲーション開始前に実施する必要があります。
 
-### Start Navigation button
-Start navigation from **from** place to **to** place.
+### ナビ開始ボタン
+設定した出発地から目的地までのナビゲーションを開始します。
 
-### From, To picker
-Please select your start location and destination.
+### 出発地、目的地選択
+今居る場所と目的地をそれぞれ選択します。
 
-### Speech option
-Speak navigation command
+### 読上げスイッチ
+音声読み上げのオン・オフを指定します。
 
-### Click option
-Provide click sound for navigation
+### 効果音スイッチ
+ナビゲーション中にクリック音を鳴らすかどうかを指定します。
 
-### Speech rate
-You can change speech rate as Normal / Fast
+### 読上げ速度
+通常 / 高速 を選択できます。
 
-### Choose Map button
-You can change the map
+### 地図選択ボタン
+地図をはじめに選択する場合は、別の地図に変更する場合に利用します。
