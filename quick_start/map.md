@@ -83,19 +83,23 @@ It should not be located exact location of your building in the map. You can rou
 	Automatically assigned from edge information
 
 * <a name="acc_info1"></a>**Info needed when coming from this Edge #**
+    
     This information will be announced when user is reached to the node through Edge #
 
 * <a name="acc_info2"></a>**Destination Information when coming from this Edge**
 
-    The app will read when the user approaching to the node.
+    The information will be announced when user is reached to the destination node through Edge #
 
 * <a name="acc_info3"></a>**Tricky node info from this Edge**
 
     If you want to announce longer description about around the node. For example a node is located at complex intersection. You may want to provide tricky hint to find their way. NavCog app notify users of existence of tricky information when the user going to be reached to the node through the edge by alert sound. User can listen the information by clicking a button on the screen or to tap designated Bluetooth button device. (Appendix xx
 
 * **Transit to Layer #**
+
     Select a destination node on the selected layer. You can specify transition for each destination layer. (See [Appendix](appendix.md#transition))
+    
 * <a name="acc_info4"></a>**Enable transit to Node # with Info**
+
     App read this information when the system tries to navigate the user to this transition
 
 * **Using target kNN Dist # and Pos #**
