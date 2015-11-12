@@ -25,10 +25,11 @@ SOFTWARE.
 
 ## Usage of NavCog
 1. Tap “Choose Map” to show available navigation maps
-2. Select the map where you are and tap “Update” -> wait for loading (a few seconds)
-3. Set the current place to “From” and the destination to “To”
-4. Head to XXX and tap “Initialize Orientation”
-5. Tap “Start Navigation” to start navigation
+2. Tap “Update” to update map list
+3. Select the map where you are -> wait for loading (a few seconds)
+4. Set the current place to “From” and the destination to “To”
+5. Head to North and tap “Initialize Orientation”
+6. Tap “Start Navigation” to start navigation
 
 
 ## Select Map View
