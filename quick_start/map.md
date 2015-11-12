@@ -135,7 +135,7 @@ It should not be located exact location of your building in the map. You can rou
 * **Start From (x, y)**
 * **To End (x, y)**
 
-    Specify the coordination of the start and the end point. Usually it has some set back. For example, the length of the edge is 100 feet then start:(0, 9) and end:(0, 109) will be set. (See [Fingerprinting](beacon.md#fingerprinting) section)
+    Specify the coordination of the start and the end point. For example, the length of the edge is 80 feet then start:(0, 0) and end:(0, 80) will be set.
 
 * **Min KnnDist**, **Max KnnDist**
 

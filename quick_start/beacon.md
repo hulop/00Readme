@@ -81,8 +81,9 @@ If you’d like to evaluate the accuracy of the generated route model, you need 
 In the Step 1, there are several things to do for each edge in your route:
 
 ### [Preparation] Before fingerprinting,  
-* Embed measure along the edge (with extra 9 feet in the ends if there’s no wall)
-  * If the edge is **3\*N** feet long, you will walk **3\*(N+6)** feet and measure at **N+7** points.
+* Embed measure along the edge (with extra 9 feet in the both ends if there’s no wall)
+  * If the edge is **3\*N** feet long, you will walk **9+3\*N+9=3\*(N+6)** feet and measure at **N+7** points.
+  * Record edge length (that is requried in [editing map](map.md))
 * Change Edge ID to the interest
 * Set Beacon Major code
 * Set Minor codes of beacons near the edge into Beacon Minor Filter box
@@ -91,7 +92,8 @@ In the Step 1, there are several things to do for each edge in your route:
 
 ###[Fingerprinting] For each points to be fingerprinted,
 * Move to the point (along with the embedded measure)
-* Set Y to the **feet / 3** (1=3feet, 2=6feet, 3=9feet, ..)from the starting point, while fixing X to 0
+* Set Y to the **feet / 3** (1.0=3ft, 2.0=6ft, 3.0=9ft, ..) from the edge start point, while fixing X to 0
+  * Set y=-3.0 at the start point of fingerprinting (-9 feet from the edge start point) if there’s no wall
 * Push “Start” button
   * Sampling RSSI from the beacons filtered by Minor codes every one second (RSSI: Received Signal Strength Indicator)
   * In training data sampling, you should walk around the point to simulate the variation of direction and position (vertical to the route) that people who are navigated could take (see Fig. 4).
