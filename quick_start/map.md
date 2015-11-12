@@ -135,7 +135,7 @@ It should not be located exact location of your building in the map. You can rou
 
 * **Min KnnDist**, **Max KnnDist**
 
-    [See Appendix](appedix.md#knnDist)
+    [See Appendix](appendix.md#knnDist)
 
 * **Data File**
 
