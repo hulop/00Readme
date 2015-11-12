@@ -21,15 +21,15 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 -->
 
-# Test Your Map
+# ナビゲーション用地図のテスト（検証）
 
 
-## Prepare private map list file
+## 地図リストファイルの準備
 
-This is a sample list file for your private map. The file is in **JSON** format.
-You can add another map as an object of **maps** list.
+NavCogアプリの地図リストに作成した地図を表示するために、地図リストファイル（**JSON**フォーマット）を準備する必要があります。
 
-You need to set the name of your map file to the same with the **name** property. (ie. "**Sample Map.json**")
+下例のように、**maps**のリストに表示する地図の情報を記述します。**name**とJSONファイル名を同じにする必要があります。
+（下例の場合、ファイル名は**Sample Map.json**とする必要があります）
 
 ```
 {
@@ -42,30 +42,29 @@ You need to set the name of your map file to the same with the **name** property
 }
 ```
 
-## Copy your map data to your device
-1. connect iPhone to your Mac (USB)
-2. open iTunes and select your device listed in iTunes
-3. select apps view
+## ナビゲーション用地図データをiPhoneにコピー
+1. iPhoneをMacにUSB接続
+2. iTunesを開き、 iPhoneマークを選択
+3. 「アプリ」を選択
 
-    ![Apps menu image](./images/apps_menu.png)
-4. Find "NavCog" app in the Apps list of File Shareing section
-5. 	Click "Add..." button to add your map files
-6. Select the list file and map file
+    ![「アプリ」メニュー](./images/apps_menu.png)
+4. 「ファイル共有」より、NavCogアプリを探して選択する
+5. 「追加」ボタンをクリックして、地図リストファイルとナビゲーション用地図ファイルを選択し、追加する
 
-    If there is a file with same name already, then you first need to delete the file (select files and type **delete** key)
+ 【注意】もし同名のファイルが既に存在する場合、まず先にそのファイルを削除してから実行してください（ファイルを選択して**delete**キーで削除できます）
 
 
-## Test the map with NavCog app
-Here is a list of checkpoint for testing your map.
+## NavCogアプリを使ってテスト
+ナビゲーション用地図のテスト内容と、うまく行かなかった場合など、確認すべき設定箇所は下記のとおりです。
 
-|Test item|Check points|
+|テスト内容|確認すべき設定箇所|
 |---|---|
-|Localization accuracy (average error) is about less than 7 feet|[Sampling Data](beacon.md#fingerprinting) [Edge Coordination](map.md#add_edge)|
-|Navigation command is announced as you expected|[Accessibility Info.](map.md#add_acc_info) [Edge Orientation](map.md#add_edge)|
-|App can track location in transition (if you have transition)|[Manage Transition](appendix.md#transition)|
+|位置推定精度 (average error) が  7 フィート以下であること|[基準測定](beacon.md#fingerprinting)データに不備がないか、[エッジ](map.md#add_edge)座標が正しく設定されているか|
+|ナビゲーション中に期待通りの情報が読上げられること|[アクセシビリティ情報](map.md#add_acc_info)が正しく設定されているか [エッジ](map.md#add_edge)の方角が間違っていないか|
+|（遷移を設定した場合）ノードの遷移が正しく行われること|[ノードの遷移](appendix.md#transition)に必要な情報が正しく設定されているか|
 
 
-## Distribute your map
+## ナビゲーション用地図を公開
 上記、テストを実施して問題がなければ、その地図を[public map](https://navcog.mybluemix.net/index.html#public_maps)として、NavCogプロジェクトメンバーに公開することができます。
 
-If you want to distribute your map for everyone, please contact [NavCog support](mailto:navcog.calab@gmail.com) and ask to add your map in the public map list.
+地図を公開したい場合、その旨 [NavCogサポート](mailto:navcog.calab@gmail.com) までご連絡ください。
