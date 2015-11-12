@@ -32,7 +32,7 @@ SOFTWARE.
 0. Mac PC
 0. iPhone 6 もしくは、それ以降
 0. NavCogアプリ　（[App Store](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1042163426&mt=8)よりダウンロードください）
-0. Bluetooh LEビーコン ([補遺](appendix.md))
+0. Bluetooh LEビーコン ([補遺](appendix.md#beacon))
 0. 対象フロアマップ画像 (optional)
 0. フィート目盛のある巻尺、粘着テープ
 
@@ -41,10 +41,10 @@ SOFTWARE.
 NavCogアプリはビーコンからのBluetooth信号を利用してユーザの位置を推定します。
 以下の手順で、簡単にナビゲーション用地図を作成することができます。
 
-1.	対象エリアおよび案内ルートを決定する([Sec. 2](map.md#add_area))
-2.	ルート周辺にビーコンを配置する([Sec. 3](beacon.md#beacon_placement))
-3.	位置推定のための **基準測定** ([*1](#footnote1)) データを収集 ([Sec. 3](beacon.md#fingerprinting))
-4.	ナビゲーション用地図データを作成する ([Sec. 2](map.md#export_map))
+1.	対象エリアおよび案内ルートを決定する([Sec. 2](map.md))
+2.	ルート周辺にビーコンを配置する([Sec. 3](beacon.md))
+3.	位置推定のための **基準測定** ([*1](#footnote1)) データを収集する ([Sec. 3](beacon.md#fingerprinting))
+4.	ナビゲーション用地図データをエクスポートする ([Sec. 2](map.md#export_map))
 5.	ナビゲーション用地図をテストする ([Sec. 4](test.md))
 6.	ナビゲーション用地図を登録・公開する ([Sec. 4](test.md#submit_map))
 7.	対象エリアで視覚障害者にNavCogアプリを使ってもらう([Sec. 5](navcog.md))

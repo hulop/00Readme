@@ -129,7 +129,7 @@ In the Step 1, there are several things to do for each edge in your route:
 
 1. Prepare **train-data** and **test-data** on your desktop (both folder has concatinated data files)
 
-  You can take test data by the same procedure for training data. (**Note**: App always save fingerprinting data in edge-<edge id>-<x>-<y>.txt. You should extract all training data before start taking test data. It is easy if you have two iPhones for development)
+  You can take test data by the same procedure for training data. (**Note**: App always save fingerprinting data in edge-\<edge id\>-\<x\>-\<y\>.txt. You should extract all training data before start taking test data. It is easy if you have two iPhones for development)
 
 2. Open **Terminal** app
 3. Type the following command
