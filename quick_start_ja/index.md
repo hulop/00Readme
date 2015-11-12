@@ -21,7 +21,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 -->
 
-# はじめに（クイック・スタート・ガイド ） 
+# クイック・スタート・ガイド
 当文書は視覚障害者ナビゲーション支援を提供する方々向けに書かれています。
 当文書にはiPhoneとiBeaconを用いた屋内ナビゲーションを実現するための**ナビゲーション用地図**の作成方法が書かれています。
 
