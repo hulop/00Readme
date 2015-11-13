@@ -43,7 +43,7 @@ NavCogアプリはビーコンからのBluetooth信号を利用してユーザ�
 
 1.	対象エリアおよび案内ルートを決定する([Sec. 2](map.md))
 2.	ルート周辺にビーコンを配置する([Sec. 3](beacon.md))
-3.	位置推定のための **基準測定** ([*1](#footnote1)) データを収集する ([Sec. 3](beacon.md#fingerprinting))
+3.	位置推定のための **基準測定**([*1](#footnote1)) データを収集する ([Sec. 3](beacon.md#fingerprinting))
 4.	ナビゲーション用地図データをエクスポートする ([Sec. 2](map.md#export_map))
 5.	ナビゲーション用地図をテストする ([Sec. 4](test.md))
 6.	ナビゲーション用地図を登録・公開する ([Sec. 4](test.md#submit_map))
