@@ -35,9 +35,9 @@ You need to set `maxDist`, `minDist` values for edge information and `target knn
 
 ### <a name="knnDist"></a>knnDist
 
-If you use transition node you need to input maximum and minimum knn distance to the edge just after the transition.
+You need to input maximum and minimum knn distance to all of the edges.
 
-You can get minDist and maxDist values in accuracy evaluation result file.
+You can get those values as minDist/maxDist in accuracy evaluation result file.
 [Accuracy Evaluation](beacon.md#acc_eval)
 Please input the values of the edge on map editor.
 
