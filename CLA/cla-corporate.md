@@ -4,17 +4,20 @@
 https://github.com/hulop/
 
 
-Thank you for your interest in IBM’s Human-scale Localization Platform project (“the
-Project"). In order to clarify the intellectual property license granted with Contributions from any person or entity, 
-IBM must have a Contributor License Agreement (CLA) on file that has been signed by each Contributor,
-indicating agreement to the license terms below. This license is for your protection as a Contributor as well
-as the protection of IBM and its users; it does not change your rights to use your own Contributions for any other purpose.
+Thank you for your interest in IBM’s Human-scale Localization Platform project 
+(“the Project"). In order to clarify the intellectual property license granted with 
+Contributions from any person or entity, IBM must have a Contributor License Agreement (CLA) 
+on file that has been signed by each Contributor, indicating agreement to the license terms 
+below. This license is for your protection as a Contributor as well as the protection of IBM 
+and its users; it does not change your rights to use your own Contributions for any other purpose.
 
-This version of the Agreement allows an entity (the "Corporation") to submit Contributions to the Project, to authorize Contributions 
-submitted by its designated employees to the Project, and to grant 
-copyright and patent licenses thereto 
+This version of the Agreement allows an entity (the "Corporation") to submit Contributions to the 
+Project, to authorize Contributions submitted by its designated employees to the Project, and to 
+grant copyright and patent licenses thereto 
    
-If you have not already done so, please complete and sign, then scan and email a pdf file of this Agreement to socacc@jp.ibm.com. The signed copy of this Agreement made by PDF Adobe format shall be considered an original.
+If you have not already done so, please complete and sign, then scan and email a pdf file of this 
+Agreement to socacc@jp.ibm.com. The signed copy of this Agreement made by PDF Adobe format shall 
+be considered an original.
 
 
 
@@ -33,7 +36,8 @@ Telephone:           _____________________
 
 You accept and agree to the following terms and conditions for Your
 present and future Contributions submitted to the Project. Except 
-for the license granted herein to IBM and recipients of software distributed by IBM, You reserve all right, title, and interest in and to Your Contributions.
+for the license granted herein to IBM and recipients of software distributed by IBM, You reserve 
+all right, title, and interest in and to Your Contributions.
 
 1. Definitions.
 
@@ -50,8 +54,17 @@ for the license granted herein to IBM and recipients of software distributed by 
 
    "Contribution" shall mean the code, documentation or other original
    works of authorship expressly identified in Schedule B, as well as
-   any original work of authorship, including any modifications or    
-additions to an existing work, that is intentionally submitted by You to IBM for inclusion in, or documentation of, the Project managed by IBM (the "Work"). For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to IBM or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, IBM for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by You as "Not a Contribution."
+   any original work of authorship, including any modifications or
+   additions to an existing work, that is intentionally submitted by You 
+   to IBM for inclusion in, or documentation of, the Project managed by 
+   IBM (the "Work"). For the purposes of this definition, "submitted" 
+   means any form of electronic, verbal, or written communication sent to 
+   IBM or its representatives, including but not limited to communication 
+   on electronic mailing lists, source code control systems, and issue 
+   tracking systems that are managed by, or on behalf of, IBM for the 
+   purpose of discussing and improving the Work, but excluding communication 
+   that is conspicuously marked or otherwise designated in writing by 
+   You as "Not a Contribution."
 
 2. Grant of Copyright License. Subject to the terms and conditions
    of this Agreement, You hereby grant to IBM and to
