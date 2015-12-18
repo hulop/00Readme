@@ -39,13 +39,11 @@ Please provide "CONTRIBUTOR LICENSE AGREEMENT (CLA)" below before you start your
 
 - Individual CLA:
  [MS Word](https://github.com/hulop/00Readme/blob/master/CLA/cla-individual.doc?raw=true), 
- [PDF](https://github.com/hulop/00Readme/blob/master/CLA/cla-individual.pdf?raw=true), 
- [Markdown](https://github.com/hulop/00Readme/blob/master/CLA/cla-individual.md?raw=true)
+ [PDF](https://github.com/hulop/00Readme/blob/master/CLA/cla-individual.pdf?raw=true)
 
 - Corporate CLA:
  [MS Word](https://github.com/hulop/00Readme/blob/master/CLA/cla-corporate.doc?raw=true), 
- [PDF](https://github.com/hulop/00Readme/blob/master/CLA/cla-corporate.pdf?raw=true), 
- [Markdown](https://github.com/hulop/00Readme/blob/master/CLA/cla-corporate.md?raw=true)
+ [PDF](https://github.com/hulop/00Readme/blob/master/CLA/cla-corporate.pdf?raw=true)
 
 ## License
 ----
