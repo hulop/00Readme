@@ -56,6 +56,7 @@ NavCogアプリはビーコンからのBluetooth信号を利用してユーザ�
 3. [ビーコン設置と基準測定](beacon.md)
 4. [ナビゲーション用地図のテスト](test.md)
 5. [NavCogユーザー・ガイド](navcog.md)
-6. [補遺](appendix.md)
+6. [電池駆動型ビーコンを使用する際の注意事項](battery.md)
+7. [補遺](appendix.md)
 
 <a name="footnote1">*1</a>: 正確な位置を把握した上でビーコン信号強度を計測すること
