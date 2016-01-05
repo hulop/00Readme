@@ -48,16 +48,16 @@ Power consumption rate of 100ms advertising interval is 2 times of 200ms adverti
 Increasing transmission power also consumes battery power.
 
 Advertising interval value is critical for beacon performance and it also affect user experience.
-Please conduct beacon vendor for optimum settings.
+Please contact beacon vendor for optimum settings.
 
 ## How to check battery level
 * LED indicator
  * Some beacon has LED indicator for battery level.
    LED color changes on dead battery level.
-   Please conduct beacon vendor for details.
+   Please contact beacon vendor for details.
 * Beacon management tools
  * Some beacon vendor support battery level checker with special application program.
-   Please conduct beacon vendor for details. 
+   Please contact beacon vendor for details. 
 * Voltage meter
  * If none of above indicator is available, you need to remove battery from beacon then use voltage meter to check battery level.
 * RSSI level  
