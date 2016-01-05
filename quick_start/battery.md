@@ -73,4 +73,4 @@ Please replace battery when battery level becomes less then the following voltag
 | CR2477 | 2.0V |
 | AA	 | 1.0V |
 
-Alkaline battery will cause electrolyte leakage if you leave it after dead voltage.
+Leaving alkaline battery in dead voltage may cause electrolyte leakage.
