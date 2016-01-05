@@ -62,7 +62,7 @@ Please contact beacon vendor for optimum settings.
  * If none of above indicator is available, you need to remove battery from beacon then use voltage meter to check battery level.
 * RSSI level  
  * If it is very hard to remove battery, you can check RSSI level using general-purpose beacon check tools such as Beacon Ranging (https://itunes.apple.com/jp/app/beacon-ranging/id734155067). 
-   You can find beacons which already dead (Typically less than 0.7v on AA battery). 
+   You can find beacons which are already dead (Typically less than 0.7V on AA battery).
    Please note it is too late to replace battery at this timing. Please replace battery before it dies.  
 
 ## When should you replace battery?
