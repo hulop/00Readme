@@ -39,7 +39,7 @@ Battery type and capacity for typical 3V beacons are as follows. Larger capacity
 
 2 x AA (Lithium) powered beacon have 3 times battery life of CR2477 powered beacon.
 
-In cool environment, Lithium battery is better than alkaline battery.
+In cold environment, Lithium battery is better than alkaline battery.
 
 ## Beacon settings and battery life
 Battery life of beacon will strongly depend on advertising interval and transmission power settings.
