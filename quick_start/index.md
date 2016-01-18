@@ -25,6 +25,15 @@ SOFTWARE.
 This document is for people who want to provide blind navigation support.
 This document describes how to build **map** for indoor navigation-able field with iPhone and iBeacon.
 
+## Navigation methods
+NavCog Version 2 supports the following three navigation methods. When you select a map, navigation method will be automatically selected based on map data.
+- 1D
+   - NavCog handles edge as one dimentional lines. only beacon dta is used for localization.
+   - NavCog Version 1 only supports 1D method.
+- 1D PDR (Pedestrian Dead Reckoning)
+   - On 1D PDR method, NavCog also handles edge as one dimentional lines as same as 1D method. Acceleration sensor data will be used for localization in addition to beacon data.
+- 2D
+   - On 2D method, NavCog handles edge as two dimentional lines. Acceleration sensor data will be used for localization in addition to beacon data.
 
 ## Prerequisites
 Please prepare the following items to create and test your navigation map.
@@ -44,21 +53,22 @@ You can easily create navigation map with the following steps.
 
 ## Steps
 1.	Choose target area and navigation routes in your site ([Sec. 2](map.md#add_area))
-2.	Distribute beacons around the routes ([Sec. 3](beacon.md#beacon_placement))
-3.	Prepare **fingerprinting** ([*1](#footnote1)) data for localization ([Sec. 3](beacon.md#fingerprinting))
+2.	Distribute beacons around the routes ([Sec. 3](beacon.md#beacon_placement), [Sec. 4](beacon.md_2d#beacon_placement))
+3.	Prepare **fingerprinting** ([*1](#footnote1)) data for localization ([Sec. 3](beacon.md#fingerprinting), [Sec. 4](beacon.md_2d#fingerprinting))
 4.	Build map data for the app ([Sec. 2](map.md#export_map))
-5.	Test the app with your map ([Sec. 4](test.md))
-6.	Submit the map data for public use ([Sec. 4](test.md#submit_map))
-7.	Let your blind users try blind navigation in your site ([Sec. 5](navcog.md))
+5.	Test the app with your map ([Sec. 5](test.md))
+6.	Submit the map data for public use ([Sec. 5](test.md#submit_map))
+7.	Let your blind users try blind navigation in your site ([Sec. 6](navcog.md))
 
 # Index
 
 1. Index (this document)
 2. [Edit Map & Routes](map.md)
 3. [BLE Beacon Placement & Fingerprinting](beacon.md)
-4. [Test Your Map](test.md)
-5. [NavCog User Guide](navcog.md)
-6. [Notice for use of battery powered beacons](battery.md)
-7. [Appendix](appendix.md)
+4. [BLE Beacon Placement & Fingerprinting (for 2D)](beacon_2d.md)
+5. [Test Your Map](test.md)
+6. [NavCog User Guide](navcog.md)
+7. [Notice for use of battery powered beacons](battery.md)
+8. [Appendix](appendix.md)
 
 <a name="footnote1">*1</a>: Observe radio signal strength in the real environment.
