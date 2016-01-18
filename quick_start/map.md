@@ -24,13 +24,19 @@ SOFTWARE.
 # Edit Map & Routes
 This section describes how to design routes and edit maps with accessibility information to provide accessible navigation for blind users with NavCog app.
 
-What you have to do is to edit routes information on [online mapeditor](https://navcog.mybluemix.net/map) and to distribute BLE beacons aroud your routes for localization.
+What you have to do is to edit routes information on [online mapeditor](https://navcog.mybluemix.net/map) and to distribute BLE beacons around your routes for localization.
 
 If you had completed to test your navigation with your map, you can submit the map NavCog project members to put them as a [public map](https://navcog.mybluemix.net/maps.html) for the NavCog app.
 
 Here is an example of map in CMU campus.
 
 ![Example of map](images/cmu_map.png)
+
+## Advanced mode
+
+   You need to switch to advanced mode when you edit 1D PDR or 2D map data.
+   
+   Please select `File` tab, then set `Advanced mode` checkbox on to switch to advanced mode. 
 
 ## <a name="add_area"></a>Add Area
 1. Select `Map` Tab.
@@ -50,7 +56,7 @@ It should not be located exact location of your building in the map. You can rou
 **CAUTION**: Currently nodes and edges location is not associated with region. So you should not change the region position, size, and rotation after you have added nodes and edges.
 
 ## <a name="add_node"></a>Add Node
-1. Select `Toology` tab.
+1. Select `Topology` tab.
 2. `Click` on the map where you want to an add node with pressing `a key`.
 
   Usually, nodes are located at intersection, door, staircase, elevator, and destination locations.
@@ -114,6 +120,8 @@ It should not be located exact location of your building in the map. You can rou
    Edge represents a connection between two nodes and has a fingerprinting data for better localization.
 
 ### Edge Information
+Information in the edge is different based on advanced mode and localization methods.
+
 * **ID**
     Automatically assigned
 
@@ -135,19 +143,76 @@ It should not be located exact location of your building in the map. You can rou
 * **Start From (x, y)**
 * **To End (x, y)**
 
-    Specify the coordination of the start and the end point. For example, the length of the edge is 80 feet then start:(0, 0) and end:(0, 80) will be set.
+    Specify the coordination of the start and the end point. 
+    
+    On 2D mode, x,y is two-dimensional coordinates.
+    
+    On 1D or 1D PDR mode, x is always 0 and y should be distance from start point. For example, the length of the edge is 80 feet then start:(0, 0) and end:(0, 80) will be set.
 
-* **Min KnnDist**, **Max KnnDist**
+* **Localization** (*Advanced mode)
+
+    Specify information to be used for localization method.
+
+   This item will not be shown on non-advanced mode.
+
+* **Floor** (*Advanced mode/2D)
+
+   Specify floor information on 2D method.
+   
+   This item will not be shown on non-advanced mode.
+
+* **Min KnnDist**, **Max KnnDist** (*Non-advanced mode)
 
     [See Appendix](appendix.md#knnDist)
+    
+    This item will not be shown on advanced mode. 
 
-* **Data File**
+* **Data File** (*Non advanced mode)
 
-    Specify the sampling data for this edge
+    Specify the sampling data for this edge.
+
+    This item will not be shown on advanced mode. 
 
 * <a name="acc_info5"></a>**Info needed when coming from node #**
 
    App will read this information when the navigation state is changed from the start node to the edge.
+
+## Add Localization (*Advanced mode)
+On advanced mode, you need to specify localization data for the edge in `Localization` tab.
+
+* **Add Localization**
+
+   Add new localization with a name.
+   
+* **Edit Localization**
+
+   Please select a localization name, then specify the following information.
+   
+   - Name
+
+     Specify a name of localization.
+     
+   - Type
+     
+     Specify a type of localization
+
+     * 1D - Beacon (1D)
+     * 1D PDR - Beacon + Sensor (1D)
+     * 2D - Beacon + Sensor (2D)
+     
+   - Data File
+   
+     Specify a fingerprinting data for localization.
+
+    - Min KnnDist, Max KnnDist
+    
+     When type is 1D, Please fill this information after fingerprinting operation. This item will not be shown on 1D PDR or 2D.
+    
+    - Floors, Width, Height, Anchor, Rotate, Scale
+    
+     When type is 2D, Please fill this information after fingerprinting operation. This item will not be shown on 1D or 1D PDR.
+    
+
 
 ## <a name="add_acc_info"></a>Add Accessibility Information
 

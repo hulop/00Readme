@@ -28,12 +28,12 @@ This document describes how to build **map** for indoor navigation-able field wi
 ## Navigation methods
 NavCog Version 2 supports the following three navigation methods. When you select a map, navigation method will be automatically selected based on map data.
 - 1D
-   - NavCog handles edge as one dimentional lines. only beacon dta is used for localization.
+   - NavCog handles edge as one-dimensional line. only beacon data is used for localization.
    - NavCog Version 1 only supports 1D method.
 - 1D PDR (Pedestrian Dead Reckoning)
-   - On 1D PDR method, NavCog also handles edge as one dimentional lines as same as 1D method. Acceleration sensor data will be used for localization in addition to beacon data.
+   - On 1D PDR method, NavCog also handles edge as one-dimensional line as same as 1D method. Acceleration sensor data will be used for localization in addition to beacon data.
 - 2D
-   - On 2D method, NavCog handles edge as two dimentional lines. Acceleration sensor data will be used for localization in addition to beacon data.
+   - On 2D method, NavCog handles edge as two-dimensional line. Acceleration sensor data will be used for localization in addition to beacon data.
 
 ## Prerequisites
 Please prepare the following items to create and test your navigation map.
@@ -41,9 +41,9 @@ Please prepare the following items to create and test your navigation map.
 0. Mac
 0. iPhone 6 or later
 0. NavCov app downloaded from App Store (_URL TBD_)
-0. Bluetooh LE Beacon ([see Appendix](appendix.md))
+0. Bluetooth LE Beacon ([see Appendix](appendix.md))
 0. Floor plan images (optional)
-0. Long measure tape & stcky tape
+0. Long measure tape & sticky tape
 
 
 ## Overview of Building Map
