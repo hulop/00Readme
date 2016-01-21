@@ -204,13 +204,16 @@ On advanced mode, you need to specify localization data for the edge in `Localiz
    
      Specify a fingerprinting data for localization.
 
+     Please follow [BLE Beacon Placement & Fingerprinting](beacon.md) for 1D or 1D PDR.
+     Please follow [BLE Beacon Placement & Fingerprinting (for 2D)](beacon_2d.md) for 2D.
+
     - Min KnnDist, Max KnnDist
     
-     When type is 1D, Please fill this information after fingerprinting operation. This item will not be shown on 1D PDR or 2D.
+     When type is 1D, Please fill this information after [BLE Beacon Placement & Fingerprinting](beacon.md). This item will not be shown on 1D PDR or 2D.
     
     - Floors, Width, Height, Anchor, Rotate, Scale
     
-     When type is 2D, Please fill this information after fingerprinting operation. This item will not be shown on 1D or 1D PDR.
+     When type is 2D, Please fill this information after [BLE Beacon Placement & Fingerprinting (for 2D)](beacon_2d.md). This item will not be shown on 1D or 1D PDR.
     
 
 
