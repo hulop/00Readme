@@ -23,6 +23,6 @@ SOFTWARE.
 
 # BLE Beacon Placement & Fingerprinting (for 2D)
 
-This section describes how to set up beacons on your site and collect data for localization.
+This section describes how to set up beacons on your site and collect data for localization for 2D.
 
 **Currently, fingerprinting method for 2D is not published yet. We are planning to provide this item to be open sourced in the future.**
