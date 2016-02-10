@@ -24,7 +24,7 @@ SOFTWARE.
 # Edit Map & Routes
 This section describes how to design routes and edit maps with accessibility information to provide accessible navigation for blind users with NavCog app.
 
-What you have to do is to edit routes information on [online mapeditor](https://navcog.mybluemix.net/map) and to distribute BLE beacons around your routes for localization.
+What you have to do is to edit routes information on [online mapeditor](https://navcog.mybluemix.net/map/?advanced) and to distribute BLE beacons around your routes for localization.
 
 If you had completed to test your navigation with your map, you can submit the map NavCog project members to put them as a [public map](https://navcog.mybluemix.net/maps.html) for the NavCog app.
 
