@@ -23,7 +23,7 @@ SOFTWARE.
 
 # BLE Beacon Placement & Fingerprinting
 
-This section describes how to set up beacons on your site and collect data for localization.
+This section describes how to set up beacons on your site and collect data for localization for 1D or 1D PDR.
 
 ## <a name="beacon_placement"></a>BLE Beacon Placement
 
