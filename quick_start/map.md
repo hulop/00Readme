@@ -119,6 +119,16 @@ It should not be located exact location of your building in the map. You can rou
 
    Edge represents a connection between two nodes and has a fingerprinting data for better localization.
 
+### Curved Edge
+
+You can create curved edge for curved path by changing edge line to polyline
+
+1. make an edge
+2. mouseover at the middle of the edge to show the control for editing polyline
+3. drag & drop the control to modify the polyline
+4. controls are shown at the middle of all segments of the polyline
+5. "Orientation" should be specified as orientation looking the end node from the start node
+
 ### Edge Information
 Information in the edge is different based on advanced mode and localization methods.
 
