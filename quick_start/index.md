@@ -41,7 +41,7 @@ Please prepare the following items to create and test your navigation map.
 0. Mac
 0. iPhone 6 or later
 0. NavCov app downloaded from App Store (_URL TBD_)
-0. Bluetooth LE Beacon ([see Appendix](appendix.md))
+0. Bluetooth LE Beacon ([see Appendix](appendix.md#beacon))
 0. Floor plan images (optional)
 0. Long measure tape & sticky tape
 
