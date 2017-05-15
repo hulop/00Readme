@@ -26,12 +26,15 @@ This document is for people who want to provide blind navigation support.
 This document describes how to build **map** for indoor navigation-able field with iPhone and iBeacon.
 
 ## Navigation methods
-NavCog Version 2 supports the following three navigation methods. When you select a map, navigation method will be automatically selected based on map data.
+NavCog Version 2 supports the following two navigation methods. When you select a map, navigation method will be automatically selected based on map data.
 - 1D
    - NavCog handles edge as one-dimensional line. only beacon data is used for localization.
    - NavCog Version 1 only supports 1D method.
 - 1D PDR (Pedestrian Dead Reckoning)
    - On 1D PDR method, NavCog also handles edge as one-dimensional line as same as 1D method. Acceleration sensor data will be used for localization in addition to beacon data.
+   
+[NavCog Version 3](https://github.com/hulop/NavCogIOSv3) supports the 2D mode. 
+See [wiki](https://github.com/hulop/NavCogIOSv3/wiki) for setting up NavCog Version 3.
 - 2D
    - On 2D method, NavCog handles edge as two-dimensional line. Acceleration sensor data will be used for localization in addition to beacon data.
 
