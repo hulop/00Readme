@@ -54,19 +54,18 @@ NavCogアプリはビーコンからのBluetooth信号を利用してユーザ�
 以下の手順で、簡単にナビゲーション用地図を作成することができます。
 
 0.	対象エリアおよび案内ルートを決定する([Sec. 2](map.md))
-0.	ルート周辺にビーコンを配置する([Sec. 3](beacon.md), [Sec. 4](beacon_2d.md))
-0.	位置推定のための **基準測定**([*1](#footnote1)) データを収集する ([Sec. 3](beacon.md#fingerprinting), [Sec. 4](beacon_2d.md#fingerprinting))
+0.	ルート周辺にビーコンを配置する([Sec. 3](beacon.md))
+0.	位置推定のための **基準測定**([*1](#footnote1)) データを収集する ([Sec. 3](beacon.md#fingerprinting))
 0.	ナビゲーション用地図データをエクスポートする ([Sec. 2](map.md#export_map))
-0.	ナビゲーション用地図をテストする ([Sec. 5](test.md))
-0.	ナビゲーション用地図を登録・公開する ([Sec. 5](test.md#submit_map))
-0.	対象エリアで視覚障害者にNavCogアプリを使ってもらう([Sec. 6](navcog.md))
+0.	ナビゲーション用地図をテストする ([Sec. 4](test.md))
+0.	ナビゲーション用地図を登録・公開する ([Sec. 4](test.md#submit_map))
+0.	対象エリアで視覚障害者にNavCogアプリを使ってもらう([Sec. 5](navcog.md))
 
 # 目次
 
 0. はじめに (当文書)
 0. [ナビゲーション用地図の作成](map.md)
 0. [ビーコン設置と基準測定](beacon.md)
-0. [ビーコン設置と基準測定 (2D編)](beacon_2d.md)
 0. [ナビゲーション用地図のテスト](test.md)
 0. [NavCogユーザー・ガイド](navcog.md)
 0. [電池駆動型ビーコンを使用する際の注意事項](battery.md)
