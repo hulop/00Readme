@@ -35,6 +35,10 @@ Please check this repo first for this organisation project.
 
 ## How Can I Contribute?
 
+Please select one from two procedures. 
+
+### A: CONTRIBUTOR LICENSE AGREEMENT (CLA)
+
 Please provide "CONTRIBUTOR LICENSE AGREEMENT (CLA)" below before you start your contributions.
 
 - Individual CLA:
@@ -44,6 +48,21 @@ Please provide "CONTRIBUTOR LICENSE AGREEMENT (CLA)" below before you start your
 - Corporate CLA:
  [MS Word](https://github.com/hulop/00Readme/blob/master/CLA/cla-corporate.doc?raw=true), 
  [PDF](https://github.com/hulop/00Readme/blob/master/CLA/cla-corporate.pdf?raw=true)
+
+### B: Developer Certificate of Origin (DCO)
+
+The developer need to add a `Signed-off-by` statement and thereby agrees to the DCO, which you can find below or at [DCO1.1.txt](DCO1.1.txt).
+You can add either **-s** or **--signoff** to your usual git commit commands.
+If `Signed-off-by` is attached to the commit message, it is regarded as agreed to the [DCO1.1.txt](DCO1.1.txt)．
+
+Procedure
+---------
+
+1. Clone HULOP repogitory
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -s -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
 
 ## License
 ----
