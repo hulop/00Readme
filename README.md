@@ -27,9 +27,7 @@ Please check this repo first for this organisation project.
 
 ### [All repositories in HULOP](https://github.com/hulop/)
 
-### [Quick Start Guide](quick_start/index.md)
-
-- [クイック・スタート・ガイド（日本語）](quick_start_ja/index.md)
+### [Quick Start Guide (Setting up NavCog3)](https://github.com/hulop/NavCogIOSv3/wiki)
 
 ### [About HULOP](http://hulop.mybluemix.net)
 
