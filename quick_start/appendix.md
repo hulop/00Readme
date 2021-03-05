@@ -42,7 +42,7 @@ You can get those values as minDist/maxDist in accuracy evaluation result file.
 Please input the values of the edge on map editor.
 
 
-## Beacon Type
+## <a name="beacon"></a>Beacon Type
 
 There are some types of beacons; Battery, USB powered, water proof, embedded in LED light, and so on.
 
